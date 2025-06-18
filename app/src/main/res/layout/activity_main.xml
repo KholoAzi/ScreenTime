@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/primaryBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Screen Time Entry"
+            android:textSize="24sp"
+            android:textColor="@color/primaryText"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <EditText
+            android:id="@+id/etDate"
+            android:hint="Enter Date (YYYY-MM-DD)"
+            android:backgroundTint="@color/blueAccent"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etMorning"
+            android:hint="Morning Screen Time (min)"
+            android:inputType="number"
+            android:padding="12dp"
+            android:backgroundTint="@color/pinkAccent"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etAfternoon"
+            android:hint="Afternoon Screen Time (min)"
+            android:inputType="number"
+            android:padding="12dp"
+            android:backgroundTint="@color/pinkAccent"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etNotes"
+            android:hint="Activity Notes"
+            android:padding="12dp"
+            android:backgroundTint="@color/blueAccent"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:text="Save Entry"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/blueAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:text="Clear"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/pinkAccent"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnDetails"
+            android:text="View Details"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/primaryText"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

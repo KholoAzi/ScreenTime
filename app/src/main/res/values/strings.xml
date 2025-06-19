@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Screen Time</string>
+    <string name="summary">Summary</string>
+    <string name="back">Back</string>
+    <string name="screen_time_entry">Screen Time Entry</string>
+    <string name="enter_date_yyyy_mm_dd">Enter Date (YYYY-MM-DD)</string>
+    <string name="morning_screen_time_min">Morning Screen Time (min)</string>
 </resources>

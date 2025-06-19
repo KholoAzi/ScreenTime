@@ -7,23 +7,30 @@
 
     <TextView
         android:id="@+id/tvSummary"
-        android:text="Summary"
-        android:textSize="22sp"
+        android:layout_width="246dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/summary"
         android:textColor="@color/primaryText"
-        android:layout_marginBottom="16dp"/>
+        android:textSize="40sp" />
 
-    <ScrollView>
+    <ScrollView
+        android:layout_width="204dp"
+        android:layout_height="50dp">
+
         <LinearLayout
             android:id="@+id/entryContainer"
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
     </ScrollView>
 
     <Button
         android:id="@+id/btnBack"
-        android:text="Back"
-        android:textColor="@android:color/white"
+        android:layout_width="196dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/pinkAccent"
-        android:layout_marginTop="16dp"/>
+        android:text="@string/back"
+        android:textColor="@android:color/white" />
 </LinearLayout>
